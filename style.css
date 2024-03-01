@@ -1,0 +1,264 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0%;
+    margin: 0;
+}
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{
+    padding:0;
+    margin: 0;
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+}
+
+#atomic{
+    height: 60px;
+    width: 60px;
+    margin-left: 200px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.quimica{
+    font-family:sora;
+    font-weight: bolder;
+    font-size: 35px;
+    background-color: #F2F2F2;
+    color: rgb(52, 52, 52);
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;        
+    margin-left: 100px;
+    border-radius: 15px;
+    letter-spacing:10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#modelos{
+    font-family:sora;
+    font-weight: bolder;
+    font-size: 35px;
+    letter-spacing:10px;
+    background-color: #F2F2F2;
+    color: rgb(52, 52, 52);
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-left: 400px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+#header {
+    background-color:#8AA6A3;  
+    width:100%;
+    position:fixed;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+    font-family: Roboto;
+    padding:10px;
+}
+
+.contenedor_descripcion{
+    font-size: 25px;
+
+}
+
+.texto_descripcion{
+    text-align: start;
+    margin-top: 40px;
+}
+
+.imagenatomo{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.boton{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+
+.modelosatomicos{
+    height: 100px;
+}
+
+.modelos{
+margin-top: 20px;
+margin-left: 30%;   
+}
+
+.tarjetas{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+}
+
+.tarjeta{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(70, 68, 64) 0px 10px 30px -10px; 
+    border:1px solid;
+    border-color: rgb(232, 232, 232);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.nombres{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.texto{
+    margin-bottom: 10px;
+}
+
+#espacios{  
+    margin-bottom: 300px;
+}
+
+#texto_descripcion_atomo{
+
+    background-color: #f0f0f0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding:100px 400px;
+    margin-bottom: 150px;
+
+}
+
+#titulo_descripcion{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#contenedor_atomo{
+    margin-top: 40px;
+    font-family: Roboto;
+    font-size: 25px;
+    text-align: center;
+    text-align: start;
+}
+
+
+@media (max-width:1000px){
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .tarjetas{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        padding: 20px;
+    }
+    .tarjeta{
+        height: 400px;
+        width: 500px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgb(70, 68, 64) 0px 10px 30px -10px; 
+        border:1px solid;
+        border-color: rgb(232, 232, 232);
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .nombres{
+        font-size: 50px;
+        font-weight: bolder;
+        margin-bottom: 5px;
+    }
+    
+    .texto{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .modelos{
+        margin-top: 20px;
+        margin-left: 30%; 
+        }
+
+    .modelosatomicos{
+        height: 200px;
+        width: 200px;  
+    }
+
+    .imagenatomo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 100px;
+        width: 100px;
+        height: auto;
+    }
+
+    .boton{
+        height: 0px;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;  
+        margin-bottom:0px
+    }
+
+    #texto_descripcion_atomo{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 70px;
+
+    }
+
+    #titulo_descripcion{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+}
